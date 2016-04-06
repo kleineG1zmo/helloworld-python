@@ -2,7 +2,7 @@ a = int(input('CROSS 1 X '))
 b = int(input('CROSS 1 Y '))
 c = int(input('CROSS 2 X '))
 d = int(input('CROSS 2 Y '))
-if a == c or b == d or (a - c) == (d - b) or (a - c) == -(d - b) or -(a - c) == (d - b):
+if a == c or b == d /*ход ладьи*/ or (a - c) == (d - b) or (a - c) == -(d - b) or -(a - c) == (d - b): #ход коня
     print ('YES')
 else:
     print ('NO')
