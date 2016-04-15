@@ -1,2 +1,2 @@
-a = float(input('YOUR NUMBER '))
-print(a - int(a)) # WHAT A FUCK? DAVED, TEST IT, `COS IT WORKS UNCORRECTLY AND TELL ME ABOUT THE ERROR IN TELEGRAM!
+﻿a = float(input('YOUR NUMBER '))
+print("%.1f" % (a - int(a)))
